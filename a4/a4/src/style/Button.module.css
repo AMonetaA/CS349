@@ -1,0 +1,22 @@
+.root {
+    padding: 10px;
+    background-color: lightgrey;
+    display: flex;
+    align-items:left;
+    justify-content:left;
+    gap: 10px;
+    height: 30px;
+  }
+  
+  button {
+    width: 100px;
+    height: 30px;
+  }
+
+.disabled{
+    width: 100px;
+    height: 30px;
+    border-color: grey;
+    color: grey;
+}
+  

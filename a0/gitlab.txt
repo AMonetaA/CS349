@@ -1,0 +1,2 @@
+origin	https://git.uwaterloo.ca/cs349-fall2023/y3825wan.git (fetch)
+origin	https://git.uwaterloo.ca/cs349-fall2023/y3825wan.git (push)

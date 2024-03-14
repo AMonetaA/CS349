@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta 
+      name="viewport" 
+      content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="panel">???</div>
+    <template id ="toolbartemp">
+      <div id ="toolbar">
+        <button id = "add" style = "width: 100px">Add</button>
+        <button id = "delete" style = "width: 100px">Delete</button>
+      </div>
+    </template>
+
+
+    <template id ="editortemp">
+      <div id ="editor">
+        <div id = "colourbox"></div>
+        <div id = "valuebox">
+          <div>
+            <div>Hue</div>
+            <input type="number" name="" id="huetext"/>
+            <input type="range" name="" id="huerange" max="360"/>
+          </div>
+          <div>
+            <div>Sat</div>
+            <input type="number" name="" id="sattext" />
+            <input type="range" name="" id="satrange" />
+          </div>
+          <div>
+            <div>Lum</div>
+            <input type="number" name="" id="lumtext" />
+            <input type="range" name="" id="lumrange" />
+          </div>
+        </div>
+      </div>
+    </template>
+
+
+    <template id ="swatchtemp">
+      <div id ="swatch">
+        
+      </div>
+    </template>
+
+    <template id ="boxtemp">
+      <div id ="box"></div>
+    </template>
+
+    <template id ="statustemp">
+      <div id ="status">
+        10 swatches (selected #1)
+      </div>
+    </template>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

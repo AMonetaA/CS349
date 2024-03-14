@@ -1,0 +1,54 @@
+.root{
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    
+    align-content: flex-start;
+}
+
+.checkbox {
+    padding: 10px;
+    /* flex: 1 1 0; */
+    gap: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.valuebox {
+    padding: 10px;
+    /* flex: 1 1 0; */
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.hex {
+    width: 100px;
+    text-align: left;
+}
+
+.value {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.label {
+    width: 50px;
+    text-align: right;
+}
+
+.number{
+    width: 50px;
+    text-align: left;
+}
+
+.range {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: row; 
+}

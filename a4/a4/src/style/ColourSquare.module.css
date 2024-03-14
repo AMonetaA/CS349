@@ -1,0 +1,9 @@
+.root{
+    padding: 10px;
+    background-color: whitesmoke;
+    flex: 1 1 0;
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;  
+}
+
